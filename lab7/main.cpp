@@ -80,7 +80,6 @@ void part2_test(){
   ll2.Extend(ll3);
   std::cout << ll2.ToString() << " has size " << ll2.GetSize() << std::endl; 
   // Expecting 1 2 3 4 5 6 a b c d e has size 11
-    /*
   LinkedList ll4 = ll2.Slice(2, 4);
   std::cout << ll4.ToString() << " has size " << ll4.GetSize() << std::endl; 
   // Expecting 3 4 has size 2
@@ -96,7 +95,6 @@ void part2_test(){
   ll3.Reverse();
   std::cout << ll3.ToString() << std::endl;
   // Expecting e d c b a
-  */
 }
 /*
 void part3_test(){
@@ -120,10 +118,11 @@ void part3_test(){
     std::cout << ll1.ToString() << "\n";
 }
 */
+
 int main(){
     //LLNode_main();
 
-    //part1_test();
+    part1_test();
     part2_test();
     //part3_test();
 }
