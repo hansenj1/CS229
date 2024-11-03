@@ -1,1 +1,1 @@
-hello 
+Labs completed for CS229 at IWU. All labs and their associated files were worked on with Jules Weick, my lab partner for this class. Some class declarations and a few test files were provided by professor Andrew Shallue.
